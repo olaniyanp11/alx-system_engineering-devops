@@ -1,2 +1,2 @@
- #!/b n/bash 
- pwd  pwd
+ #!/bin/bash 
+pwd
