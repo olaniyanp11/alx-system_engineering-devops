@@ -5,3 +5,4 @@ group show
 changed ownership 
 “
 new
+hello executable all
