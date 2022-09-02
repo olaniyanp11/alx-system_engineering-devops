@@ -1,2 +1,2 @@
-#!bin/bash
-chgrp school hello
+#!/bin/bash
+mkdir -m751 my_dir

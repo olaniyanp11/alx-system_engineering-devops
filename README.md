@@ -10,3 +10,4 @@ hello executable all
 753 premissions
 helped
  changed permission of current directory
+group name changed
