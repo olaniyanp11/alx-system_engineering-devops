@@ -11,3 +11,4 @@ hello executable all
 helped
  changed permission of current directory
 group name changed
+owner and group dhanged
