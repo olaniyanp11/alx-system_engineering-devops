@@ -12,3 +12,4 @@ helped
  changed permission of current directory
 group name changed
 owner and group dhanged
+changed group ownership to two
