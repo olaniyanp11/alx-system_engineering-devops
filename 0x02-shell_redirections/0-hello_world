@@ -1,2 +1,3 @@
 #!/bin/bash
-echo “Hello, World” > bask
+echo “Hello, World”
+> bask
