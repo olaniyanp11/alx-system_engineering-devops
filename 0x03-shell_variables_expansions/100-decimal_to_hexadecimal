@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($DECIMAL*(16**1)+2))
+echo $((16#$DECIMAL))
