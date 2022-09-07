@@ -1,0 +1,2 @@
+#!/bin/bash
+System.out.printf("%.2f",$NUM)
