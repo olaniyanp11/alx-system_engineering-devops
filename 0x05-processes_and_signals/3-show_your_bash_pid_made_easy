@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script displays the current working process
 
-echo "$$" | pgrep bash 
+pgrep -l bash 
