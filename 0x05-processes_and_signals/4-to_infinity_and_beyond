@@ -2,7 +2,7 @@
 
 # a Bash script that displays To infinity and beyond indefinitely.
 
-while :
+while ((1))
 do
 	echo "To infinity and beyond"
 sleep 2
