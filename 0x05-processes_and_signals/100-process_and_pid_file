@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+# Set the trap to print things when it  receives a SIGTERM,SIGINT, SIGQUIT or` SIGTERM signal
+# Set the trap to print things when it  receives a SIGTERM,SIGINT, SIGQUIT or` SIGTERM signal
 # Set the trap to print things when it  receives a SIGTERM,SIGINT, SIGQUIT or` SIGTERM signal
 
 trap "echo 'I hate the kill commande me?!'; rm /var/run/myscript.pid; exit"  SIGTERM
