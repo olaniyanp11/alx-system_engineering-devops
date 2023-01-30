@@ -1,5 +1,5 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+# print in=m alive tii its stoped
 while true; do
   echo "I am alive!" >> /tmp/my_process
   sleep 2
