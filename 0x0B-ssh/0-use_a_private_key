@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+ssh -i ~/.ssh/school unbutu@18.234.106.54
+
