@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Install nginx web server
-
 # Update and install app
+
 sudo apt-get  update
 sudo apt-get  install -y nginx
 
@@ -12,6 +12,8 @@ mkdir /etc/nginx/html
 touch /etc/nginx/html/index.html
 echo "Hello World" > /etc/nginx/html/index.html
 
+
+# Creating the Server Block File
 echo "server {
         listen 80 default_server;
         listen [::]:80 default_server;
@@ -20,6 +22,9 @@ echo "server {
         index index.html index.htm index.nginx-debian.html;
 
         server_name _;
-}" > /etc/nginx/sites-available/default
+}
+" > /etc/nginx/sites-available/default
+
+
 # Restarting the ngixx
 service nginx restart
