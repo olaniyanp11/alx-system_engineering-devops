@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Installs Nginx with the following configurations:
+#    at the root with a curl GET request.
+
+# Install nginx
+sudo apt-get update
+sudo apt-get install -y nginx
+
+# Configuration
+mkdir /etc/nginx/html
+
+# Creating Sample Page
+echo "Hello World!" > /etc/nginx/html/index.html
+
+# Creating the Server Block File
+string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/www.google.com permanent;"
+sudo sed -i "s/server_name _;/$string_for_replacement/" /etc/nginx/sites-enabled/default
+
+# Restart Nginx
+service nginx restart
